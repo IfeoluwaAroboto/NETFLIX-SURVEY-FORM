@@ -1,5 +1,5 @@
-let buttonBtn = document.getElementById ("button-btn")
-
-buttonBtn.addEventListener ("click", function (){
-    console.log ("clicked")
-})
+let thanksEl = document.getElementById("thanks-el")
+thanksEl.addEventListener("click", function(){
+    alert("thanks for participating")
+}) 
+    
